@@ -535,9 +535,3 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem;
   color: #a6a6a6;
 }
-
-@media screen and ( max-width : 786px ) {
-  /* #contactSection {
-    margin-top: 100px;
-  } */
-}
