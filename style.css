@@ -511,7 +511,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(59, 0, 42, 0.5);
 }
 
-input, textarea {
+.input-lg, .btn-lg {
   background-color: #0d0d0d !important;
   border: 0px solid black !important;
   border-radius: 0 !important;
@@ -519,7 +519,7 @@ input, textarea {
   color: white !important;
 }
 
-input:focus, textarea:focus {
+.input-lg:focus, .btn-lg:focus {
   border-left: 1px solid white !important;
 }
 
