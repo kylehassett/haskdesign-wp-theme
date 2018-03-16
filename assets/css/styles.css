@@ -1,0 +1,125 @@
+/* === GENERAL === */
+html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  padding-bottom: 6rem;
+  background-image: linear-gradient(135deg, #3B002A, #8F0066);
+  background-repeat: no-repeat;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.08s;
+  -webkit-transition-timing-function: linear;
+  transition-property: all;
+  transition-duration: 0.08s;
+  transition-timing-function: linear;
+}
+
+/* === GLOBAL === */
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  color: white;
+  line-height: 150%;
+  font-family: 'Hind', sans-serif;
+}
+
+/* === Navbar editing === */
+.navbar {
+  background: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 48px;
+  color: white !important;
+}
+
+#border-item {
+  margin: 0;
+  margin-top: 25px;
+  border-bottom: 1px solid white;
+  margin-left: 20%;
+  width: 50%;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.08s;
+  -webkit-transition-timing-function: linear;
+  transition-property: all;
+  transition-duration: 0.08s;
+  transition-timing-function: linear;
+}
+
+.navbar-brand:hover {
+  font-size: 52px;
+}
+
+.navbar-brand:hover > #border-item {
+  border-bottom: 2px solid white;
+  margin-left: 16%;
+  width: 60%;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav li a {
+  font-family: 'Roboto', sans-serif;
+  color: #eae9e9 !important;
+  height: inherit;
+}
+
+.nav li a:hover {
+  color: #ffffff !important;
+}
+
+.active a {
+  background-color: rgba(79, 0, 56, 0.0) !important;
+  border-bottom: 1px solid white;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.08s;
+  -webkit-transition-timing-function: linear;
+  transition-property: all;
+  transition-duration: 0.08s;
+  transition-timing-function: linear;
+}
+
+.active a:hover {
+  background-color: rgba(79, 0, 56, 0.0) !important;
+  border-bottom: 2px solid white;
+}
+
+/* === CONTACT AREA === */
+#contactSection {
+  margin-top: 50px;
+  height: 60%;
+}
+
+.contact-area {
+  background-color: rgba(59, 0, 42, 0.5);
+}
+
+/* === Footer === */
+.footer {
+  top: auto;
+  text-align: left;
+  bottom: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: #a6a6a6;
+}
