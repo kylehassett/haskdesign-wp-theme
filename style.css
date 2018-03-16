@@ -409,12 +409,12 @@ body {
   padding-bottom: 6rem;
   background-image: linear-gradient(135deg, #3B002A, #8F0066);
   background-repeat: no-repeat;
-  -webkit-transition-property: all;
-  -webkit-transition-duration: 0.08s;
-  -webkit-transition-timing-function: linear;
-  transition-property: all;
-  transition-duration: 0.08s;
-  transition-timing-function: linear;
+  -webkit-transition-property: all !important;
+  -webkit-transition-duration: 0.08s !important;
+  -webkit-transition-timing-function: linear !important;
+  transition-property: all !important;
+  transition-duration: 0.08s !important;
+  transition-timing-function: linear !important;
 }
 
 /* === GLOBAL === */
@@ -511,6 +511,18 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(59, 0, 42, 0.5);
 }
 
+input, textarea {
+  background-color: #0d0d0d !important;
+  border: 0px solid black !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid white !important;
+  color: white !important;
+}
+
+input:focus, textarea:focus {
+  border-left: 1px solid white !important;
+}
+
 /* === Footer === */
 .footer {
   top: auto;
@@ -522,4 +534,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   padding: 1rem;
   color: #a6a6a6;
+}
+
+@media screen and ( max-width : 786px ) {
+  /* #contactSection {
+    margin-top: 100px;
+  } */
 }
