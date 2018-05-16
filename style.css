@@ -409,6 +409,7 @@ body {
   padding-bottom: 6rem;
   background-image: linear-gradient(135deg, #3B002A, #8F0066);
   background-repeat: no-repeat;
+	background: fixed;
   -webkit-transition-property: all !important;
   -webkit-transition-duration: 0.08s !important;
   -webkit-transition-timing-function: linear !important;
