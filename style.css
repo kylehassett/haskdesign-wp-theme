@@ -501,6 +501,22 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid white;
 }
 
+@media screen and ( max-width : 768px ) {
+  #site-name {
+    font-size: 36px;
+  }
+
+  #site-name:hover {
+    font-size: 44px;
+  }
+}
+
+@media screen and ( max-width : 736px ) {
+  .navbar li {
+    background-color: #3B002A;
+  }
+}
+
 /* === CONTACT AREA === */
 #contactSection {
   margin-top: 100px;
