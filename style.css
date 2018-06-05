@@ -409,7 +409,7 @@ body {
   padding-bottom: 6rem;
   background-image: linear-gradient(135deg, #3B002A, #8F0066);
   background-repeat: no-repeat;
-	background: fixed;
+  background: fixed;
   -webkit-transition-property: all !important;
   -webkit-transition-duration: 0.08s !important;
   -webkit-transition-timing-function: linear !important;
@@ -428,7 +428,28 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Hind', sans-serif;
 }
 
-/* === Navbar editing === */
+h1 {
+  font-size: 6em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 12px;
+}
+
+hr {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+/* === NAVBAR === */
 .navbar-wrapper {
   height: 25px;
 }
@@ -540,15 +561,93 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 1px solid white !important;
 }
 
-/* === Footer === */
+/* === PAGE HEADERS === */
+.page-title {
+  margin-top: 60px;
+}
+
+/* === FOOTER === */
 .footer {
   top: auto;
   text-align: left;
   bottom: auto;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   color: #a6a6a6;
+}
+
+/* === PORTFOLIO POSTS === */
+.post {
+  background-color: black;
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 50px;
+  border-radius: 1%;
+  color: white;
+}
+
+.post header h3 a {
+  color: #ffffff;
+}
+
+.post-details a {
+  color: #e600ac;
+  font-family: 'Roboto', sans-serif;
+}
+
+.post-image img {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.post-excerpt p {
+  text-align: left;
+  color: white;
+  font-size: 1em !important;
+  font-family: 'Roboto', sans-serif;
+  line-height: 200%;
+}
+
+.post-excerpt a {
+  color: #e600ac;
+}
+
+/* === SIDEBAR === */
+.widget {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #d9d9d9;
+  padding: 0 5px 2px 5px;
+}
+
+.widget h4 {
+  border-bottom: solid 1px #ddd;
+}
+
+.widget p {
+  text-align: center;
+}
+
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget ul li {
+  margin: 0 0 5px;
+  position: relative;
+  left: 15px;
+}
+
+.widget ul li:hover {
+  left: 18px;
+}
+
+.widget ul li a {
+  color: #e600ac;
 }
