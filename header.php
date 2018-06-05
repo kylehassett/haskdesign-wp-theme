@@ -32,6 +32,17 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Hind:300|Roboto:300" rel="stylesheet">
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120460633-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-120460633-1');
+	</script>
+
+
 	<?php wp_head(); ?>
 
 	<!-- HTML5 shiv and Respond.js IEB support of HTML5 elements and media queries -->
